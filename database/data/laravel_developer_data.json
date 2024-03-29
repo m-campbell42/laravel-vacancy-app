@@ -1,0 +1,327 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Laura Smith",
+            "email": "user1@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Jane Garcia",
+            "email": "user2@example.com"
+        },
+        {
+            "id": 3,
+            "name": "Alex Rodriguez",
+            "email": "user3@example.com"
+        },
+        {
+            "id": 4,
+            "name": "John Garcia",
+            "email": "user4@example.com"
+        },
+        {
+            "id": 5,
+            "name": "Sara Brown",
+            "email": "user5@example.com"
+        },
+        {
+            "id": 6,
+            "name": "Laura Miller",
+            "email": "user6@example.com"
+        },
+        {
+            "id": 7,
+            "name": "Maria Jones",
+            "email": "user7@example.com"
+        },
+        {
+            "id": 8,
+            "name": "Laura Brown",
+            "email": "user8@example.com"
+        },
+        {
+            "id": 9,
+            "name": "Maria Smith",
+            "email": "user9@example.com"
+        },
+        {
+            "id": 10,
+            "name": "Anna Rodriguez",
+            "email": "user10@example.com"
+        },
+        {
+            "id": 11,
+            "name": "Sara Smith",
+            "email": "user11@example.com"
+        },
+        {
+            "id": 12,
+            "name": "Anna Rodriguez",
+            "email": "user12@example.com"
+        },
+        {
+            "id": 13,
+            "name": "David Rodriguez",
+            "email": "user13@example.com"
+        },
+        {
+            "id": 14,
+            "name": "Michael Jones",
+            "email": "user14@example.com"
+        },
+        {
+            "id": 15,
+            "name": "John Jones",
+            "email": "user15@example.com"
+        },
+        {
+            "id": 16,
+            "name": "Robert Wilson",
+            "email": "user16@example.com"
+        },
+        {
+            "id": 17,
+            "name": "Laura Miller",
+            "email": "user17@example.com"
+        },
+        {
+            "id": 18,
+            "name": "David Miller",
+            "email": "user18@example.com"
+        },
+        {
+            "id": 19,
+            "name": "Sara Rodriguez",
+            "email": "user19@example.com"
+        },
+        {
+            "id": 20,
+            "name": "Jane Johnson",
+            "email": "user20@example.com"
+        },
+        {
+            "id": 21,
+            "name": "Laura Jones",
+            "email": "user21@example.com"
+        },
+        {
+            "id": 22,
+            "name": "Michael Miller",
+            "email": "user22@example.com"
+        },
+        {
+            "id": 23,
+            "name": "David Miller",
+            "email": "user23@example.com"
+        },
+        {
+            "id": 24,
+            "name": "Jane Rodriguez",
+            "email": "user24@example.com"
+        },
+        {
+            "id": 25,
+            "name": "Maria Davis",
+            "email": "user25@example.com"
+        },
+        {
+            "id": 26,
+            "name": "Sara Davis",
+            "email": "user26@example.com"
+        },
+        {
+            "id": 27,
+            "name": "Anna Garcia",
+            "email": "user27@example.com"
+        },
+        {
+            "id": 28,
+            "name": "Sara Rodriguez",
+            "email": "user28@example.com"
+        },
+        {
+            "id": 29,
+            "name": "Maria Garcia",
+            "email": "user29@example.com"
+        },
+        {
+            "id": 30,
+            "name": "Robert Smith",
+            "email": "user30@example.com"
+        },
+        {
+            "id": 31,
+            "name": "Alex Brown",
+            "email": "user31@example.com"
+        },
+        {
+            "id": 32,
+            "name": "Maria Johnson",
+            "email": "user32@example.com"
+        },
+        {
+            "id": 33,
+            "name": "Alex Davis",
+            "email": "user33@example.com"
+        },
+        {
+            "id": 34,
+            "name": "Robert Davis",
+            "email": "user34@example.com"
+        }
+    ],
+    
+        "vacancies": [
+            {
+                "id": 1,
+                "title": "Senior Laravel Developer",
+                "description": "Seeking a highly experienced Senior Laravel Developer to lead our team in developing robust web applications. The ideal candidate will have extensive knowledge of Laravel framework, along with expertise in HTML, JavaScript, MySQL, and Vue.js.",
+                "required_skills": [
+                    "HTML",
+                    "JavaScript",
+                    "MySQL",
+                    "Vue.js"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Laravel Application Architect",
+                "description": "We are looking for a Laravel Application Architect who can design and implement scalable and efficient Laravel applications. The role requires deep understanding of Laravel framework, REST API architecture, and strong proficiency in PHP, JavaScript, CSS, and Git.",
+                "required_skills": [
+                    "Laravel",
+                    "JavaScript",
+                    "REST API",
+                    "CSS",
+                    "Git"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Full Stack Laravel Developer",
+                "description": "We are seeking a Full Stack Laravel Developer to join our team and contribute to both frontend and backend development using Laravel framework. The ideal candidate will have expertise in MySQL, REST API development, and strong proficiency in Laravel.",
+                "required_skills": [
+                    "MySQL",
+                    "REST API",
+                    "Laravel"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Laravel CMS Developer",
+                "description": "Join our team as a Laravel CMS Developer and work on developing and customizing content management systems using Laravel. The role requires proficiency in JavaScript, CSS, REST API, and Vue.js along with strong knowledge of Laravel framework.",
+                "required_skills": [
+                    "JavaScript",
+                    "CSS",
+                    "REST API",
+                    "Vue.js"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Laravel E-commerce Developer",
+                "description": "We are hiring a Laravel E-commerce Developer to build and maintain e-commerce platforms using Laravel framework. The ideal candidate will have expertise in PHP, HTML, CSS, and JavaScript along with experience in building scalable e-commerce solutions.",
+                "required_skills": [
+                    "PHP",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Lead Laravel Developer",
+                "description": "We are looking for a Lead Laravel Developer to oversee our Laravel projects and mentor junior developers. The role requires strong leadership skills along with proficiency in Git, MySQL, PHP, REST API, and HTML.",
+                "required_skills": [
+                    "Git",
+                    "MySQL",
+                    "PHP",
+                    "REST API",
+                    "HTML"
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Laravel Plugin Developer",
+                "description": "Join our team as a Laravel Plugin Developer and work on developing custom plugins and extensions for Laravel applications. The role requires expertise in CSS, testing methodologies, and version control with Git.",
+                "required_skills": [
+                    "CSS",
+                    "Testing",
+                    "Git"
+                ]
+            },
+            {
+                "id": 8,
+                "title": "Laravel Solutions Architect",
+                "description": "We are seeking a Laravel Solutions Architect to design and implement scalable and efficient solutions using Laravel framework. The role requires strong problem-solving skills and deep understanding of Laravel ecosystem.",
+                "required_skills": [
+                    "Laravel",
+                    "PHP",
+                    "MySQL",
+                    "REST API"
+                ]
+            },
+            {
+                "id": 9,
+                "title": "Laravel UI Developer",
+                "description": "We are hiring a Laravel UI Developer to focus on frontend development using Laravel framework. The ideal candidate will have expertise in HTML, JavaScript, and Laravel along with experience in building user-friendly interfaces.",
+                "required_skills": [
+                    "HTML",
+                    "JavaScript",
+                    "Laravel"
+                ]
+            },
+            {
+                "id": 10,
+                "title": "Laravel DevOps Engineer",
+                "description": "Join our team as a Laravel DevOps Engineer and work on deploying, monitoring, and maintaining Laravel applications. The role requires proficiency in Laravel, PHP, MySQL, and experience with CI/CD pipelines.",
+                "required_skills": [
+                    "Laravel",
+                    "PHP",
+                    "MySQL"
+                ]
+            },
+            {
+                "id": 11,
+                "title": "Laravel Support Engineer",
+                "description": "We are looking for a Laravel Support Engineer to provide technical support and troubleshooting for Laravel applications. The role requires strong communication skills and expertise in Laravel framework.",
+                "required_skills": [
+                    "Laravel",
+                    "PHP",
+                    "MySQL",
+                    "HTML"
+                ]
+            },
+            {
+                "id": 12,
+                "title": "Laravel Quality Assurance Engineer",
+                "description": "Join our team as a Laravel Quality Assurance Engineer and ensure the quality and reliability of Laravel applications through rigorous testing. The role requires expertise in testing methodologies and strong knowledge of Laravel framework.",
+                "required_skills": [
+                    "Laravel",
+                    "Testing"
+                ]
+            },
+            {
+                "id": 13,
+                "title": "Laravel Project Manager",
+                "description": "We are seeking a Laravel Project Manager to oversee and coordinate Laravel development projects. The role requires strong project management skills and deep understanding of Laravel ecosystem.",
+                "required_skills": [
+                    "Laravel",
+                    "Project Management"
+                ]
+            }
+        ],
+        "skills": [
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "REST API",
+            "Vue.js",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Git",
+            "Testing"
+        ]
+    }
+    
