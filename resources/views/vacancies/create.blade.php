@@ -14,6 +14,10 @@
         <label for="description">Description:</label>
         <textarea name="description" id="description" required></textarea>
     </div>
+    <div>
+        <label for="required_skills">Skills</label>
+        <textarea name="required_skills" id="required_skills" required></textarea>
+</div>
     <button type="submit">Create Vacancy</button>
 </form>
 @endsection

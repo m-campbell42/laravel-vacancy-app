@@ -27,7 +27,7 @@ class VacancyController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|max:255',
             'description' => 'required',
-            // other fields as necessary
+            'required_skills' => 'required',
         ]);
 
         $vacancy = new Vacancy($validatedData);
@@ -55,7 +55,7 @@ class VacancyController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|max:255',
             'description' => 'required',
-            // other fields as necessary
+            'required_skills' => 'required',
         ]);
 
         $vacancy->update($validatedData);

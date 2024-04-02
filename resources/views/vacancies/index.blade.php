@@ -14,7 +14,7 @@
                 <h2 class="text-lg font-bold text-red-600">{{ $vacancy->title }}</h2>
                 <p class="text-gray-800">{{ $vacancy->description }}</p>
                 <p class="text-gray-600">Skills: {{ $vacancy->required_skills }}</p>
-                <a href="{{ route('comments.create', $vacancy) }}" class="mt-2 px-4 py-2 bg-black hover:bg-gray-800 rounded-lg text-white">Add Comment</a>
+                <a href="{{ route('comments.create') }}" class="mt-2 px-4 py-2 bg-black hover:bg-gray-800 rounded-lg text-white">Add Comment</a>
             </div>
         @endforeach
     </div>
