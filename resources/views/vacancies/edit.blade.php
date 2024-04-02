@@ -15,6 +15,10 @@
         <label for="description">Description:</label>
         <textarea name="description" id="description" required>{{ $vacancy->description }}</textarea>
     </div>
+    <div>
+        <label for="required_skills">Skills:</label>
+        <textarea name="required_skills" id="required_skills" required>{{ $vacancy->required_skills }}</textarea>
+    <div>
     <button type="submit">Update Vacancy</button>
 </form>
 @endsection

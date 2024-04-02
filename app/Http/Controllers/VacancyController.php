@@ -58,7 +58,10 @@ class VacancyController extends Controller
             'required_skills' => 'required',
         ]);
 
+  
+
         $vacancy->update($validatedData);
+        
         return redirect()->route('vacancies.index')->with('success', 'Vacancy updated successfully.');
     }
 

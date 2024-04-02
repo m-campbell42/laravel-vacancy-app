@@ -38,8 +38,7 @@ Route::get('/vacancies/{vacancy}/edit', [VacancyController::class, 'edit'])->nam
 Route::put('/vacancies/{vacancy}', [VacancyController::class, 'update'])->name('vacancies.update');
 Route::delete('/vacancies/{vacancy}', [VacancyController::class, 'destroy'])->name('vacancies.destroy');
 
-Route::post('/vacancies/{vacancy}/comments/create', [CommentController::class, 'create'])->name('comments.create');
-Route::post('/vacancies/{vacancy}/comments', [CommentController::class, 'store'])->name('comments.store');
+Route::get('/vacancies/comments/create', [CommentController::class, 'create'])->name('comments.create');
+Route::post('/vacancies/comments', [CommentController::class, 'store'])->name('comments.store');
 
-Route::get('/comments', [CommentController::class, 'create'])->name('comments.create');
 require __DIR__.'/auth.php';
