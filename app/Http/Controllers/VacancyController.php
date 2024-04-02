@@ -59,17 +59,14 @@ class VacancyController extends Controller
         ]);
 
         $vacancy->update($validatedData);
-        return redirect()->route('vacancies.index');
+        return redirect()->route('vacancies.index')->with('success', 'Vacancy updated successfully.');
     }
 
     // Remove the specified vacancy from the database.
     public function destroy(Vacancy $vacancy)
     {
-        $vacancies = Vacancy::where('category', 'Laravel Developer')
-        ->orWhere('title', 'LIKE', '%Laravel Developer%')
-        ->get();
-
-        return view('vacancies.index', compact('vacancies'));
+        $vacancy->delete();
+        return redirect()->route('vacancies.index')->with('success', 'Vacancy deleted successfully.');
     }
     
 }
